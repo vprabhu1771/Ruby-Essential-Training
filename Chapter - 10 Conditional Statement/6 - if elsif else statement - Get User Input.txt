@@ -1,0 +1,27 @@
+puts "Enter any integer:"
+
+no = gets.chomp.to_i
+
+if no < 0 
+    puts "#{no} is negative no"
+elsif no > 0
+    puts "#{no} is positive no"
+else
+    puts "#{no} is zero"
+end
+
+OUTPUT
+Enter any integer:
+-2
+
+-2 is negative no
+
+Enter any integer:
+2
+
+2 is positive no
+
+Enter any integer:
+0
+
+0 is zero

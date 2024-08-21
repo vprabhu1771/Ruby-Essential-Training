@@ -1,0 +1,12 @@
+puts "Enter your name"
+
+name = gets.chomp
+
+puts "Your Name is : #{name}"
+
+
+OUTPUT
+
+Enter your name
+prabhu
+Your Name is : prabhu

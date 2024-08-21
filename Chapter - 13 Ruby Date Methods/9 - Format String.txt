@@ -1,0 +1,20 @@
+When using the strftime method in Ruby, you can use various format specifiers to represent different components of a time or date. Here's a list of commonly used format specifiers for constructing format strings:
+
+%Y - Year with century (e.g., 2023)
+%m - Month as a decimal number (01-12)
+%d - Day of the month as a decimal number (01-31)
+%H - Hour (24-hour clock) as a decimal number (00-23)
+%M - Minute as a decimal number (00-59)
+%S - Second as a decimal number (00-59)
+%p - AM/PM indicator (AM or PM)
+%b - Abbreviated month name (Jan, Feb, etc.)
+%B - Full month name (January, February, etc.)
+%a - Abbreviated weekday name (Sun, Mon, etc.)
+%A - Full weekday name (Sunday, Monday, etc.)
+%j - Day of the year as a decimal number (001-366)
+%w - Weekday as a decimal number (0-6, Sunday is 0)
+%Z - Time zone name
+
+You can combine these format specifiers with other characters to create a desired format for your time or date string. For example, "%Y-%m-%d %H:%M:%S" represents a format string that outputs the year, month, day, hour, minute, and second in a specific format.
+
+Feel free to mix and match these format specifiers to construct the desired format for your time or date representation using the strftime method.

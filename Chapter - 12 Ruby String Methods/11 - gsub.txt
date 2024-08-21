@@ -1,0 +1,8 @@
+Replaces occurrences of a pattern with a specified string.
+
+data = "Hello, World!".gsub("World", "Ruby")
+
+puts data
+
+Output
+Hello, Ruby!

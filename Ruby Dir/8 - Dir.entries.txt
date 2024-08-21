@@ -1,0 +1,1 @@
+Dir.entries(directory) - Returns an array of filenames in the specified directory, including "." and "..".

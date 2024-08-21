@@ -1,0 +1,24 @@
+Access Control: Understand the three levels of access control in Ruby: public, protected, and private, and how they affect method visibility.
+
+class MyClass
+  def public_method
+    puts "This is a public method"
+  end
+
+  protected
+
+  def protected_method
+    puts "This is a protected method"
+  end
+
+  private
+
+  def private_method
+    puts "This is a private method"
+  end
+end
+
+obj = MyClass.new
+obj.public_method
+# obj.protected_method # This would raise an error
+# obj.private_method # This would raise an error

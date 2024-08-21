@@ -1,0 +1,22 @@
+require 'net/http'
+require 'json'
+
+# Method to fetch the system's IP address
+def get_system_ip
+  url = URI.parse('https://api.ipify.org?format=json')
+  response = Net::HTTP.get_response(url)
+  if response.is_a?(Net::HTTPSuccess)
+    ip_data = JSON.parse(response.body)
+    ip_data['ip']
+  else
+    nil
+  end
+end
+
+# Usage example
+ip_address = get_system_ip
+if ip_address
+  puts "System IP address: #{ip_address}"
+else
+  puts 'Unable to fetch system IP address'
+end

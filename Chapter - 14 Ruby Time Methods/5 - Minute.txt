@@ -1,0 +1,16 @@
+# Creating a new time object
+
+# Current time
+t = Time.new
+
+# Same as Time.new
+t = Time.now
+
+# Accessing time components
+
+# Minute (0-59)
+puts t.min
+
+Output
+
+55

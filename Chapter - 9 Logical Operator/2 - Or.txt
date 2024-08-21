@@ -1,0 +1,21 @@
+x = 12
+
+y = 10
+
+puts "x = #{x}"
+
+puts "y = #{y}"
+
+print "#{x} < #{y} || "
+
+print "#{x} != #{y} = "
+
+puts (x < y) || (x != y)
+
+
+OUTPUT
+x = 12
+
+y = 10
+
+12 < 10 || 12 != 10 = true

@@ -1,0 +1,8 @@
+Splits the string into an array of substrings based on a delimiter.
+
+data = "Hello, World!".split(", ")
+
+puts data
+
+Output
+["Hello", "World!"]

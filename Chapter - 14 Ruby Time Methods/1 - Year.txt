@@ -1,0 +1,22 @@
+require 'time'
+
+# Creating a new time object
+
+# Current time
+t = Time.new
+
+# Same as Time.new
+t = Time.now
+
+# Accessing time components
+
+# Year (e.g., 2023)
+puts t.year
+
+# Year (e.g., 23)
+puts t.strftime("%y")
+
+
+OUTPUT
+2023
+23

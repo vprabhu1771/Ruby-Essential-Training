@@ -1,0 +1,14 @@
+Modules and Mixins: Explore how modules can be used to define reusable methods and how mixins allow you to include module functionality in classes.
+
+module Greetings
+  def say_hello
+    puts "Hello!"
+  end
+end
+
+class Person
+  include Greetings
+end
+
+person = Person.new
+person.say_hello

@@ -1,0 +1,8 @@
+Reverses the characters in the string.
+
+data = "Hello".reverse
+
+puts data
+
+Output
+olleH

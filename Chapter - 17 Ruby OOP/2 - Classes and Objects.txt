@@ -1,0 +1,15 @@
+Classes and Objects: Understanding how to define classes and create objects from those classes is fundamental to Ruby OOP.
+
+
+class Person
+  def initialize(name)
+    @name = name
+  end
+
+  def say_hello
+    puts "Hello, #{@name}!"
+  end
+end
+
+person = Person.new("Alice")
+person.say_hello

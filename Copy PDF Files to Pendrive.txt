@@ -1,0 +1,18 @@
+require 'fileutils'
+
+def search_and_copy_pdf_files(drive, destination)
+  puts "Searching for PDF files in drive #{drive}..."
+  Dir.glob("#{drive}/**/*.pdf") do |file|
+    puts "Copying #{file} to #{destination}..."
+    FileUtils.cp(file, destination)
+  end
+end
+
+# Specify the drives and destination path
+drives = ['C:', 'D:', 'E:']
+destination = '/path/to/pendrive/'
+
+# Iterate through each drive and perform the search and copy operation
+drives.each do |drive|
+  search_and_copy_pdf_files(drive, destination)
+end

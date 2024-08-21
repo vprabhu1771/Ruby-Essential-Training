@@ -1,0 +1,14 @@
+Constructor and Destructor: Get to know the constructor (initialize method) and destructor (finalize method) in Ruby classes.
+
+class MyClass
+  def initialize
+    puts "Object created"
+  end
+
+  def finalize
+    puts "Object destroyed"
+  end
+end
+
+obj = MyClass.new
+obj.finalize

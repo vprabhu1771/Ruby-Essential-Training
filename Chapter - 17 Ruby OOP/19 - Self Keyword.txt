@@ -1,0 +1,19 @@
+Self Keyword: Understand the usage of the self keyword in Ruby for referring to the current object or class.
+
+class MyClass
+  def initialize(data)
+    @data = data
+  end
+
+  def print_data
+    puts @data
+  end
+
+  def update_data(new_data)
+    @data = new_data
+    print_data
+  end
+end
+
+obj = MyClass.new("Initial data")
+obj.update_data("Updated data")

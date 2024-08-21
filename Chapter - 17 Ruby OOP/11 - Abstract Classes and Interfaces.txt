@@ -1,0 +1,23 @@
+Abstract Classes and Interfaces: Although Ruby doesn't have built-in support for abstract classes and interfaces, you can emulate them using conventions and modules.
+
+module Shape
+  def area
+    raise NotImplementedError, "Subclasses must implement the area method"
+  end
+end
+
+class Circle
+  include Shape
+
+  def initialize(radius)
+    @radius = radius
+  end
+
+  def area
+    Math::PI * @radius**2
+  end
+end
+
+circle = Circle.new(5)
+puts "Circle area: #{circle.area}"
+

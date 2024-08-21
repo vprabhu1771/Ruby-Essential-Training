@@ -1,0 +1,19 @@
+Sure! Here's an example of a Ruby script that uses the `dd` command to clone a drive:
+
+```ruby
+#!/usr/bin/env ruby
+
+source_drive = "/dev/sda"    # Replace with the source drive path
+target_drive = "/dev/sdb"    # Replace with the target drive path
+
+block_size = "4M"            # Specify the block size for copying data
+
+# Run the dd command to clone the drive
+system("dd if=#{source_drive} of=#{target_drive} bs=#{block_size}")
+
+puts "Drive cloning completed!"
+```
+
+Make sure to replace the `source_drive` and `target_drive` variables with the correct paths to your source and target drives, respectively.
+
+Please note that drive cloning can be a potentially dangerous operation, and it's essential to double-check the drive paths to avoid accidentally overwriting important data.

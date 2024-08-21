@@ -1,0 +1,8 @@
+Capitalizes the first character of the string.
+
+data = "hello".capitalize
+
+puts data
+
+Output
+Hello

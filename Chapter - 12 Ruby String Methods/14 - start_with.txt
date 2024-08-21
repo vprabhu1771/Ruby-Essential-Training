@@ -1,0 +1,8 @@
+Checks if the string starts a specified substring.
+
+data = "Hello, World!".start_with?("Hello")
+
+puts data
+
+Output
+true

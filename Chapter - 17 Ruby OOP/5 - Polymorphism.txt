@@ -1,0 +1,20 @@
+Polymorphism: Explore the ability of different objects to respond to the same method call in a way that is appropriate for their class.
+
+class Bird
+  def talk
+    puts "Birds sing"
+  end
+end
+
+class Parrot < Bird
+  def talk
+    puts "Parrots mimic speech"
+  end
+end
+
+def make_bird_talk(bird)
+  bird.talk
+end
+
+parrot = Parrot.new
+make_bird_talk(parrot)

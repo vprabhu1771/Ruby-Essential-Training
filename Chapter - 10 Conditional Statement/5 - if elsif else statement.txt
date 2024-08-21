@@ -1,0 +1,12 @@
+no = 2
+
+if no < 0 
+    puts "#{no} is negative no"
+elsif no > 0
+    puts "#{no} is positive no"
+else
+    puts "#{no} is zero"
+end
+
+OUTPUT
+2 is positive no

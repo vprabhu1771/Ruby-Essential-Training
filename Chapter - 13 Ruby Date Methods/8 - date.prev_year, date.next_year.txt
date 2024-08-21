@@ -1,0 +1,18 @@
+Returns a new Date object representing the previous or next year, respectively.
+
+require 'date'
+
+date = Date.today
+
+previous_year = date.prev_year
+
+next_year = date.next_year
+
+puts "Previous Year: #{previous_year}"
+
+puts "Next Year: #{next_year}"
+
+OUTPUT
+Previous Year: 2022-09-19
+
+Next Year: 2024-09-19

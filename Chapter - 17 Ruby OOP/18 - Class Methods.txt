@@ -1,0 +1,10 @@
+Class Methods: Discover how to define and use class methods (methods that belong to the class itself, not instances).
+
+class MathUtils
+  def self.square(x)
+    x * x
+  end
+end
+
+result = MathUtils.square(5)
+puts "Square: #{result}"

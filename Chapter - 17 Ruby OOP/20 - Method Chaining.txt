@@ -1,0 +1,28 @@
+Method Chaining: Learn how to chain method calls together to create more readable and concise code.
+
+class Calculator
+  def initialize(value)
+    @value = value
+  end
+
+  def add(x)
+    @value += x
+    self
+  end
+
+  def multiply(x)
+    @value *= x
+    self
+  end
+
+  def result
+    @value
+  end
+end
+
+result = Calculator.new(5)
+  .add(3)
+  .multiply(2)
+  .result
+
+puts "Result: #{result}"

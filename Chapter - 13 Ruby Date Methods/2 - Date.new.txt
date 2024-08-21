@@ -1,0 +1,10 @@
+Date.new(year, month, day): Creates a new Date object with the specified year, month, and day.
+
+require 'date'
+
+date = Date.new(2023, 6, 19)
+
+puts date
+
+OUTPUT
+2023-06-19

@@ -1,0 +1,27 @@
+In Ruby, the `DATA` constant is a special file object that allows access to the data section of the script. It provides a way to embed data within the script itself.
+
+The `DATA` constant is typically used when you want to include data within your Ruby script that you can read as a file. This can be useful for including resources, such as configuration data or text files, directly within the script.
+
+Here's an example to demonstrate the usage of `DATA`:
+
+
+data_content = DATA.read
+puts data_content
+
+__END__
+This is some embedded data.
+It can be accessed using the DATA constant.
+
+
+In this example, everything after the `__END__` keyword is considered the data section. The `DATA` constant is used to read the contents of that section, and it behaves like a regular file object. In this case, it will output:
+
+
+This is some embedded data.
+It can be accessed using the DATA constant.
+
+
+You can perform various operations on the `DATA` object, such as reading, writing, or seeking within it, just like you would with a regular file object.
+
+It's important to note that the `__END__` keyword must be placed at the end of your script, and nothing should follow it except for the embedded data. Any code or statements placed after `__END__` will not be executed by the Ruby interpreter.
+
+Using the `DATA` constant can be handy when you want to include small data files or resources within your script without relying on external files.

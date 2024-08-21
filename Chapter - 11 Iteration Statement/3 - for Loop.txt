@@ -1,0 +1,14 @@
+for loop: It iterates over a range or an array and executes a block of code for each element.
+
+fruits = ["apple", "banana", "cherry"]
+
+for fruit in fruits do
+  puts fruit
+end
+
+
+OUTPUT
+
+apple
+banana
+cherry

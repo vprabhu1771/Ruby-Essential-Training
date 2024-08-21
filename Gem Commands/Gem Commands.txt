@@ -1,0 +1,32 @@
+RubyGems is a package manager for Ruby that allows you to easily manage and install Ruby libraries and applications. Here are some commonly used RubyGems commands:
+
+1. **gem install [gem_name]**: Installs a RubyGem.
+
+2. **gem uninstall [gem_name]**: Uninstalls a RubyGem.
+
+3. **gem update [gem_name]**: Updates a specific RubyGem to the latest version.
+
+4. **gem update**: Updates all installed RubyGems to their latest versions.
+
+5. **gem list**: Lists all installed RubyGems.
+
+6. **gem search [gem_name]**: Searches for a RubyGem by name.
+
+7. **gem info [gem_name]**: Provides information about a specific RubyGem.
+
+8. **gem cleanup**: Removes old versions of installed RubyGems to free up disk space.
+
+9. **gem pristine [gem_name]**: Restores installed gem files to their original state.
+
+10. **gem build [gemspec_file]**: Builds a RubyGem from a gemspec file.
+
+11. **gem push [gem_file]**: Publishes a built RubyGem to a gem server.
+
+12. **gem owner [gem_name]**: Shows gem owners, or if an email is specified, adds an owner.
+
+These are just a few of the most commonly used RubyGems commands. You can find more information about RubyGems and their commands in the RubyGems documentation: https://guides.rubygems.org/command-reference/
+
+gem install rails
+
+A new release of RubyGems is available: 3.4.10 → 3.4.19!
+Run `gem update --system 3.4.19` to update your installation.

@@ -1,0 +1,26 @@
+# Creating a new time object
+
+# Current time
+t = Time.new
+
+# Same as Time.new
+t = Time.now
+
+# Accessing time components
+
+# Second (0-59)
+puts t.sec
+
+# Formatting time as a string
+
+# e.g., "2023-06-19 10:30:00"
+puts t.strftime("%Y-%m-%d %H:%M:%S")
+
+# Print the time with AM/PM indicator
+puts t.strftime("%Y-%m-%d %I:%M:%S %p")
+
+Output
+
+21
+2023-06-20 09:56:21
+2023-06-20 09:56:21 AM

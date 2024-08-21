@@ -1,0 +1,7 @@
+__FILE__: Returns the path of the current source file.
+
+$0: Contains the name of the script currently being executed.
+
+puts "Current file: #{__FILE__}"
+
+puts "Current script: #{$0}"

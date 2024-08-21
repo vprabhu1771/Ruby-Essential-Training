@@ -1,0 +1,8 @@
+The puts method (short for "put string") is commonly used to display output. It adds a newline character after the output.
+
+puts "Hello, world!"
+
+
+OUTPUT
+
+Hello, world!

@@ -1,0 +1,19 @@
+Encapsulation: Learn how to encapsulate the internal state of objects by controlling access to their attributes through methods (getter and setter methods).
+
+class BankAccount
+  def initialize(balance)
+    @balance = balance
+  end
+
+  def withdraw(amount)
+    @balance -= amount if amount <= @balance
+  end
+
+  def balance
+    @balance
+  end
+end
+
+account = BankAccount.new(1000)
+account.withdraw(500)
+puts "Account balance: #{account.balance}"

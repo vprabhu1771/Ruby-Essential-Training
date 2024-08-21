@@ -1,0 +1,13 @@
+each loop: It is used to iterate over elements of an array, hash, or other enumerable objects
+
+fruits = ["apple", "banana", "cherry"]
+
+fruits.each do |fruit|
+  puts fruit
+end
+
+OUTPUT
+
+apple
+banana
+cherry

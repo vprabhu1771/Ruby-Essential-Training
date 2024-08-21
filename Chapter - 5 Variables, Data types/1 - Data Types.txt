@@ -1,0 +1,62 @@
+Ruby is a dynamically-typed programming language, which means that variables are not explicitly declared with data types. Instead, data types are determined based on the values assigned to variables. Here are some of the common data types in Ruby:
+
+1. Integer: Represents whole numbers. For example:
+   
+   age = 30
+   
+
+2. Float: Represents floating-point numbers (numbers with decimal points). For example:
+   
+   price = 19.99
+   
+
+3. String: Represents a sequence of characters enclosed in single or double quotes. For example:
+   
+   name = "John"
+   
+
+4. Boolean: Represents true or false values. For example:
+   
+   is_student = true
+   
+
+5. Array: Represents an ordered collection of items. Arrays can hold elements of different data types. For example:
+   
+   fruits = ["apple", "banana", "cherry"]
+   
+
+6. Hash: Represents a collection of key-value pairs. Keys are unique and are typically symbols or strings, while values can be of any data type. For example:
+   
+   person = { name: "Alice", age: 25 }
+   
+
+7. Symbol: Represents a lightweight, immutable value often used as keys in hashes. Symbols are preceded by a colon. For example:
+   
+   :my_symbol
+   
+
+8. Nil: Represents the absence of a value. It is similar to null in other languages. For example:
+   
+   result = nil
+   
+
+9. Range: Represents a range of values, often used in loops and conditional statements. For example:
+   
+   age_range = 18..35
+   
+
+10. Regexp: Represents regular expressions used for pattern matching. For example:
+    
+    pattern = /pattern/
+    
+
+11. Class: Represents classes and objects in Ruby's object-oriented programming. Classes themselves are objects in Ruby. For example:
+    
+    class Person
+      # Class definition
+    end
+
+    person_instance = Person.new
+    
+
+These are some of the fundamental data types in Ruby. Ruby is a dynamically typed language, which means you don't need to explicitly declare the data type of a variable; it will be determined at runtime based on the value assigned to the variable. This flexibility is a characteristic of dynamically typed languages.

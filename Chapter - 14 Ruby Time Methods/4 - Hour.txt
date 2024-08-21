@@ -1,0 +1,15 @@
+# Creating a new time object
+
+# Current time
+t = Time.new
+
+# Same as Time.new
+t = Time.now
+
+# Accessing time components
+
+# Hour of the day (0-23)
+puts t.hour
+
+Output
+9

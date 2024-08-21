@@ -1,0 +1,17 @@
+option = 1
+
+case option
+when 1
+	puts "Good Morning"
+when 2
+	puts "Good Afternoon"
+when 3
+	puts "Good Evening"
+when 4
+	puts "Good Night"
+else
+	puts "Invalid Option"
+end
+
+OUTPUT
+Good Morning

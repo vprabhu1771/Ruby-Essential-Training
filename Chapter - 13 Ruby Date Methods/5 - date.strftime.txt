@@ -1,0 +1,10 @@
+date.strftime(format): Formats the Date object into a string using the specified format. The format codes follow the conventions of the POSIX strftime function.
+
+require 'date'
+
+date = Date.today
+
+puts date.strftime("%Y-%m-%d")
+
+OUTPUT
+2023-09-19

@@ -1,0 +1,11 @@
+Returns the length of the string.
+
+data = "prabhu"
+
+puts data.length
+
+puts data.size
+
+Output
+6
+6

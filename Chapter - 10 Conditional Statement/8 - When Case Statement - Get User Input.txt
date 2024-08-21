@@ -1,0 +1,53 @@
+puts "Enter an option (1 for Good Morning, 2 for Good Afternoon, 3 for Good Evening, 4 for Good Night):"
+
+option = gets.chomp.to_i
+
+case option
+when 1
+  puts "Good Morning"
+when 2
+  puts "Good Afternoon"
+when 3
+  puts "Good Evening"
+when 4
+  puts "Good Night"
+else
+  puts "Invalid Option"
+end
+
+
+Here's how the program would work when you run it and provide different input options:
+
+1. When you enter 1 as the input:
+
+Enter an option (1 for Good Morning, 2 for Good Afternoon, 3 for Good Evening, 4 for Good Night):
+1
+Good Morning
+
+
+2. When you enter 2 as the input:
+
+Enter an option (1 for Good Morning, 2 for Good Afternoon, 3 for Good Evening, 4 for Good Night):
+2
+Good Afternoon
+
+
+3. When you enter 3 as the input:
+
+Enter an option (1 for Good Morning, 2 for Good Afternoon, 3 for Good Evening, 4 for Good Night):
+3
+Good Evening
+
+
+4. When you enter 4 as the input:
+
+Enter an option (1 for Good Morning, 2 for Good Afternoon, 3 for Good Evening, 4 for Good Night):
+4
+Good Night
+
+
+5. When you enter any other number or invalid input:
+
+Enter an option (1 for Good Morning, 2 for Good Afternoon, 3 for Good Evening, 4 for Good Night):
+5
+Invalid Option

@@ -1,0 +1,10 @@
+Date.parse(str): Parses a string and returns a Date object. The string should be in a recognized date format.
+
+require 'date'
+
+date = Date.parse("2023-06-19")
+
+puts date
+
+OUTPUT
+2023-06-19

@@ -1,0 +1,10 @@
+Returns a Date object representing the current date.
+
+require 'date'
+
+today = Date.today
+
+puts today
+
+OUTPUT
+2023-09-19

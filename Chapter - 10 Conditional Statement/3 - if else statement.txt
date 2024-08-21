@@ -1,0 +1,11 @@
+age = 20
+
+if age >= 18
+    puts "Congrats. You are Eligible for voting"
+else
+    puts "Sorry. You are Not Eligible for voting"
+end
+
+
+OUTPUT
+Congrats. You are Eligible for voting

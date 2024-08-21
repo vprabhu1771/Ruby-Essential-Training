@@ -1,0 +1,1 @@
+File.rename(old_name, new_name) - Renames or moves a file or directory from the old path to the new path.

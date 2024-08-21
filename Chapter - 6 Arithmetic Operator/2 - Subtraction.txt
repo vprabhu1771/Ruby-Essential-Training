@@ -1,0 +1,20 @@
+x = 10
+y = 2
+
+puts "x = #{x}"
+
+puts "y = #{y}"
+
+puts "#{x} - #{y} = #{x-y}"
+
+result = x - y
+
+puts "#{x} - #{y} = #{result}"
+
+
+OUTPUT
+
+x = 10
+y = 2
+10 - 2 = 8
+10 - 2 = 8

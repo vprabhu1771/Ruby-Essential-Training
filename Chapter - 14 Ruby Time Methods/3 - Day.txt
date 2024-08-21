@@ -1,0 +1,28 @@
+require 'time'
+
+# Creating a new time object
+
+# Current time
+t = Time.new
+
+# Same as Time.new
+t = Time.now
+
+# Day of the month as an integer (1-31)
+puts t.day
+
+# Day of the month with leading zero (e.g., 06)
+puts t.strftime("%d")
+
+# Print the full day name
+puts t.strftime("%A")
+
+# Print the first three letters of the day name
+puts t.strftime("%a")
+
+Output
+
+20
+20
+Tuesday
+Tue

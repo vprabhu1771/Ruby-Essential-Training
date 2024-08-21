@@ -1,0 +1,10 @@
+Method Missing: Learn about the method_missing method, which allows you to handle method calls that don't exist.
+
+class DynamicMethod
+  def method_missing(method_name, *args)
+    puts "You called #{method_name} with arguments #{args.join(', ')}"
+  end
+end
+
+obj = DynamicMethod.new
+obj.some_undefined_method(1, 2, 3)

@@ -1,0 +1,18 @@
+Immutable Objects: Learn about creating immutable objects in Ruby using freezing and constant values.
+
+class ImmutablePoint
+  def initialize(x, y)
+    @x = x.freeze
+    @y = y.freeze
+  end
+
+  def coordinates
+    "#{@x}, #{@y}"
+  end
+end
+
+point = ImmutablePoint.new(3, 4)
+puts point.coordinates
+
+# Attempting to modify frozen values will raise an error:
+# point.x = 5 # This would raise an error

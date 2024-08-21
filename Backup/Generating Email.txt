@@ -1,0 +1,39 @@
+class User
+    
+    attr_accessor :first_name, :last_name
+  
+    def initialize(first_name, last_name)
+      @first_name = first_name
+      @last_name = last_name
+    end
+  
+    def generate_email
+      "#{first_name.downcase}#{last_name.downcase}@gmail.com"
+    end
+
+end
+  
+users = [
+    User.new("John", "Doe"),
+    User.new("Jane", "Smith"),
+    User.new("Michael", "Johnson")
+]
+  
+puts "Genrating Email"
+
+users.each do |user|
+    email = user.generate_email
+    puts email
+end
+  
+
+Output
+
+ruby app.rb > email.txt
+
+email.txt
+
+Genrating Email
+johndoe@gmail.com
+janesmith@gmail.com
+michaeljohnson@gmail.com

@@ -1,0 +1,30 @@
+require 'time'
+
+# Creating a new time object
+
+# Current time
+t = Time.new
+
+# Same as Time.new
+t = Time.now
+
+# Accessing time components
+
+# Month as an integer (1-12)
+puts t.month
+
+# Month with leading zero (e.g., 06)
+puts t.strftime("%m")
+
+# Print full month name
+puts t.strftime("%B")
+
+# Print the first three letters of the month name
+puts t.strftime("%b")
+
+Output
+
+6
+06
+June
+Jun

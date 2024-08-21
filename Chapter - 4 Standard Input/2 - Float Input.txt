@@ -1,0 +1,25 @@
+# Prompt the user for input
+print "Enter a floating-point number: "
+
+# Read a line of input as a string
+input_str = gets.chomp
+
+# Convert the input string to a float
+begin
+  float_number = Float(input_str)
+  puts "You entered: #{float_number}"
+rescue ArgumentError
+  puts "Invalid input. Please enter a valid floating-point number."
+end
+
+
+OUTPUT
+
+Enter a floating-point number: 3.14
+You entered: 3.14
+
+Enter a floating-point number: abc
+Invalid input. Please enter a valid floating-point number.
+
+Enter a floating-point number:
+Invalid input. Please enter a valid floating-point number.

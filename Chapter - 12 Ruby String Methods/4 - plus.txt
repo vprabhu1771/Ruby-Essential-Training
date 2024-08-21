@@ -1,0 +1,8 @@
+Concatenates two strings.
+
+data = "Hello" + " World"
+
+puts data
+
+Output
+Hello World

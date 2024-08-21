@@ -1,0 +1,22 @@
+Class Variables and Constants: Discover class-level variables and constants, and how they differ from instance variables.
+
+class Counter
+  @@count = 0
+  MAX_COUNT = 10
+
+  def increment
+    @@count += 1
+  end
+
+  def count
+    @@count
+  end
+end
+
+counter1 = Counter.new
+counter1.increment
+puts "Count: #{counter1.count}"
+
+counter2 = Counter.new
+counter2.increment
+puts "Count: #{counter2.count}"

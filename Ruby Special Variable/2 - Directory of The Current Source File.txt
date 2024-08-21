@@ -1,0 +1,3 @@
+__dir__: Returns the directory of the current source file.
+
+puts "Current directory: #{__dir__}"

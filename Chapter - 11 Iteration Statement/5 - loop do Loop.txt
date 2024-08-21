@@ -1,0 +1,17 @@
+loop do loop: It creates an infinite loop that continues until explicitly broken using the break statement.
+
+count = 1
+
+loop do
+  puts count
+  count += 1
+  break if count >= 5
+end
+
+
+OUTPUT
+
+1
+2
+3
+4

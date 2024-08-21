@@ -1,0 +1,12 @@
+require "fileutils"
+
+BACKUP_DIR = "_backup"
+
+backup_files = Dir.glob("*.pdf")
+
+puts "Cleaning up backup directory..."
+FileUtils.rm_rf(BACKUP_DIR)
+
+puts "Backing up files..."
+FileUtils.mkdir(BACKUP_DIR)
+FileUtils.cp(backup_files, BACKUP_DIR)

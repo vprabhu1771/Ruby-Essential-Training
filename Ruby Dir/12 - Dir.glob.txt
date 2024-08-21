@@ -1,0 +1,1 @@
+Dir.glob(pattern, [flags]) - Returns an array of filenames that match the specified pattern.

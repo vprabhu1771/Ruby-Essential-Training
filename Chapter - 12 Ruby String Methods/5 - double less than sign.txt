@@ -1,0 +1,8 @@
+Appends the given string to the current string.
+
+data = "Hello" << " World"
+
+puts data
+
+Output
+Hello World

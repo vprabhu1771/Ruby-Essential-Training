@@ -1,0 +1,13 @@
+puts "Enter your age:"
+
+age = gets.chomp.to_i
+
+if age >= 18
+  puts "Congrats. You are Eligible for voting"
+end
+
+OUTPUT
+Enter your age:
+20
+
+Congrats. You are Eligible for voting

@@ -1,0 +1,8 @@
+Checks if the string ends with a specified substring.
+
+data = "Hello, World!".end_with?("World!")
+
+puts data
+
+Output
+true

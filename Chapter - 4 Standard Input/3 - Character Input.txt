@@ -1,0 +1,16 @@
+puts "Enter your Gender"
+
+gender = gets.chomp
+
+puts "Your Gender is : #{gender[0]}"
+
+
+OUTPUT
+
+Enter your Gender
+Male
+Your Gender is : M
+
+Enter your Gender
+Female
+Your Gender is : F

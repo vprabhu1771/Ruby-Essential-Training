@@ -1,0 +1,9 @@
+The print method displays output without adding a newline character. It is useful when you want to display multiple items on the same line.
+
+print "Hello, "
+print "world!"
+
+
+OUTPUT
+
+Hello, world!

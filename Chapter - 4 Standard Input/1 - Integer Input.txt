@@ -1,0 +1,23 @@
+puts "Enter X Value"
+
+x = gets.chomp.to_i
+
+puts "Enter Y Value"
+
+y = gets.chomp.to_i
+
+puts "x = #{x}"
+
+puts "y = #{y}"
+
+
+OUTPUT
+
+Enter X Value
+4
+
+Enter Y Value
+6
+
+x = 4
+y = 6

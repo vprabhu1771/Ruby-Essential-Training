@@ -1,0 +1,16 @@
+date.year, date.month, date.day: Returns the year, month, and day of a Date object, respectively.
+
+require 'date'
+
+date = Date.today
+
+puts date.year
+
+puts date.month
+
+puts date.day
+
+OUTPUT
+2023
+9
+19

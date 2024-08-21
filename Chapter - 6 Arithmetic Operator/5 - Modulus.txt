@@ -1,0 +1,20 @@
+x = 7
+y = 3
+
+puts "x = #{x}"
+
+puts "y = #{y}"
+
+puts "#{x} % #{y} = #{x%y}"
+
+result = x % y
+
+puts "#{x} % #{y} = #{result}"
+
+
+Output
+
+x = 7
+y = 3
+7 % 3 = 2
+7 % 3 = 1

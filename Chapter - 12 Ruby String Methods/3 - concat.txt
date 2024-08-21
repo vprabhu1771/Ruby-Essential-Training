@@ -1,0 +1,8 @@
+Appends another string to the current string.
+
+data = "Hello".concat(" World")
+
+puts data
+
+Output
+Hello World

@@ -1,0 +1,16 @@
+Singleton Pattern: Explore how to implement the Singleton design pattern in Ruby.
+
+class Singleton
+  @instance = nil
+
+  private_class_method :new
+
+  def self.instance
+    @instance ||= new
+  end
+end
+
+singleton1 = Singleton.instance
+singleton2 = Singleton.instance
+
+puts singleton1 == singleton2 # Outputs: true

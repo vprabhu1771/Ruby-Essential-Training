@@ -1,0 +1,8 @@
+Converts the string to uppercase.
+
+data = "Hello".upcase
+
+puts data
+
+Output
+HELLO

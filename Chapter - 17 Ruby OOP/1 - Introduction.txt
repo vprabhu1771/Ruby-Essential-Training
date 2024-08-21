@@ -1,0 +1,41 @@
+Ruby, like many other object-oriented programming languages, offers a variety of object-oriented programming (OOP) concepts and features. Here are some key OOP topics in Ruby:
+
+1. **Classes and Objects**: Understanding how to define classes and create objects from those classes is fundamental to Ruby OOP.
+
+2. **Attributes and Methods**: Learn how to define attributes (instance variables) and methods (functions) within classes.
+
+3. **Inheritance**: Ruby supports single inheritance, where a class can inherit attributes and methods from a parent class.
+
+4. **Polymorphism**: Explore the ability of different objects to respond to the same method call in a way that is appropriate for their class.
+
+5. **Encapsulation**: Learn how to encapsulate the internal state of objects by controlling access to their attributes through methods (getter and setter methods).
+
+6. **Access Control**: Understand the three levels of access control in Ruby: public, protected, and private, and how they affect method visibility.
+
+7. **Modules and Mixins**: Explore how modules can be used to define reusable methods and how mixins allow you to include module functionality in classes.
+
+8. **Class Variables and Constants**: Discover class-level variables and constants, and how they differ from instance variables.
+
+9. **Method Overriding**: Learn how to override methods inherited from a superclass in a subclass.
+
+10. **Abstract Classes and Interfaces**: Although Ruby doesn't have built-in support for abstract classes and interfaces, you can emulate them using conventions and modules.
+
+11. **Duck Typing**: Understand the concept of duck typing, where the type or class of an object is determined by its behavior rather than explicit type declarations.
+
+12. **Constructor and Destructor**: Get to know the constructor (`initialize` method) and destructor (`finalize` method) in Ruby classes.
+
+13. **Method Missing**: Learn about the `method_missing` method, which allows you to handle method calls that don't exist.
+
+14. **Singleton Pattern**: Explore how to implement the Singleton design pattern in Ruby.
+
+15. **Object Initialization**: Understand different ways to initialize objects, including default values and named parameters.
+
+16. **Immutable Objects**: Learn about creating immutable objects in Ruby using freezing and constant values.
+
+17. **Class Methods**: Discover how to define and use class methods (methods that belong to the class itself, not instances).
+
+18. **Self Keyword**: Understand the usage of the `self` keyword in Ruby for referring to the current object or class.
+
+19. **Method Chaining**: Learn how to chain method calls together to create more readable and concise code.
+
+These are some of the core OOP topics in Ruby. Mastering these concepts will help you become proficient in object-oriented programming with Ruby.

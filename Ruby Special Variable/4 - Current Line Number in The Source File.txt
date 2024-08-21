@@ -1,0 +1,3 @@
+__LINE__: Returns the current line number in the source file.
+
+puts "Current line no: #{__LINE__}"

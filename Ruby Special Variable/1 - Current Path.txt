@@ -1,0 +1,8 @@
+current_path = __dir__
+
+puts current_path
+
+current_path = Dir.pwd
+
+puts current_path
+

@@ -1,0 +1,20 @@
+x = 5
+y = 10
+
+puts "x = #{x}"
+
+puts "y = #{y}"
+
+puts "#{x} < #{y} = #{x<y}"
+
+result = x < y
+
+puts "#{x} < #{y} = #{result}"
+
+
+OUTPUT
+
+x = 5
+y = 10
+5 < 10 = true
+5 < 10 = true

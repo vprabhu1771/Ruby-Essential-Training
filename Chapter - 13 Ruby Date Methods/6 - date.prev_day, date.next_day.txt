@@ -1,0 +1,18 @@
+date.prev_day, date.next_day: Returns a new Date object representing the previous or next day, respectively.
+
+require 'date'
+
+date = Date.today
+
+previous_day = date.prev_day
+
+next_day = date.next_day
+
+puts "Previous Day: #{previous_day}"
+
+puts "Next Day: #{next_day}"
+
+OUTPUT
+Previous Day: 2023-09-18
+
+Next Day: 2023-09-20

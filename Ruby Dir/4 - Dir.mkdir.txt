@@ -1,0 +1,1 @@
+Dir.mkdir(directory) - Creates a new directory with the specified path.

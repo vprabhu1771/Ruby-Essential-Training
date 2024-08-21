@@ -1,0 +1,5 @@
+Microsoft Windows [Version 10.0.19045.3448]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\windows_rig2\Downloads>ruby HelloWorld.rb
+Hello, world!

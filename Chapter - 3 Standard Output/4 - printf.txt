@@ -1,0 +1,11 @@
+The printf method (short for "print formatted") allows you to display output with specific formatting using placeholders.
+
+
+name = "John"
+age = 25
+printf("My name is %s and I am %d years old.", name, age)
+
+
+OUTPUT
+
+My name is John and I am 25 years old.

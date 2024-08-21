@@ -1,0 +1,8 @@
+Converts the string to lowercase.
+
+data = "Hello".downcase
+
+puts data
+
+Output
+hello
